@@ -1,0 +1,3 @@
+read --P 'Eneter Ur First Name: " name
+reaD -sp "Eneter Ur Secound Name: "" fname
+echo "Welcome IN BIM name$$name $fname"
