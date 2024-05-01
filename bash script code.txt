@@ -1,0 +1,174 @@
+read -p "Enter the username:" user
+read -p "Enter the password:" pass
+
+if [ $user == "az" ] && [ $pass == "1234" ];then
+        echo "Welcome az"
+elif [ $user == "ra" ] && [ $pass == "12345" ];then
+        echo "Welcome ra"
+else
+        echo "You don't have access"
+fi
+
+
+****************************************************************
+
+read -p "Enter the username:" user
+read -p "Enter the password:" pass
+
+if [ $user == "az" ] && [ $pass == "1234" ];then
+        echo "Welcome az"
+elif [ $user == "ra" ] && [ $pass == "12345" ];then
+        echo "Welcome ra"
+else
+        echo "You don't have access"
+fi
+
+****************************************************************
+
+#!/bin/bash
+text="I hack binaries,web apps,BIM Hacker, and just about anything else"
+echo "$text" |cut -d',' -f2
+
+****************************************************************
+
+#!/bin/bash
+text="I hack binaries,web apps,BIM Hacker, and just about anything else"
+echo "$text" |sed 's/Hacker/Football/'
+
+****************************************************************
+
+#!/bin/bash
+text="I hack binaries,web apps,BIM Hacker, and just about anything else"
+echo "$text" |tr -d ','
+
+****************************************************************
+
+if [ $id =="uid=1" ] || [ $id =="uid=11000" ] ;then
+        echo 'aa'
+
+fi
+
+****************************************************************
+
+for f in 1 2 3 4 5 6 7 8 9 ;
+do echo $f hh hi hello ;
+done
+
+****************************************************************
+
+read -p " Enter username:" user
+
+if [ $user == "raghad" ]; then
+        echo "Hello raghad"
+elif [ $user == "ghada" ]; then
+        echo "Hello ghada"
+else
+        echo "Error"
+fi
+
+
+****************************************************************
+
+if [ id == "uid=1000"];then
+do
+        id
+done
+fi
+
+
+****************************************************************
+
+read -p "Enter the number: " x
+if [ $((x % 2)) == 0 ]; then
+    echo "The number is even"
+else
+    echo "The number is odd"
+fi
+
+
+****************************************************************
+
+for ra in 1 2 3 4 5;
+do ping -c $ra 8.8.8.8 ;
+done
+
+
+****************************************************************
+
+read -p "username: " user
+read -p "pass: " pass
+
+if [ $user == "az" ] && [ $pass == "1234" ];then
+        echo "hi az"
+elif [ $user == "ra" ] && [ $pass == "12345" ]; then
+        echo "hi ra"
+else
+        echo "not"
+fi
+
+
+****************************************************************
+
+read -p "Enter the num:" num
+if [ $((num Break% 2)) == 0 ]; then
+        echo " The num is even"
+else
+        echo "The num is odd"
+fi
+
+
+****************************************************************
+
+for r in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20;
+do echo $r r ra roro raghad;
+done
+
+
+****************************************************************
+
+read -p "Your age:" age
+if [ $age -gt 18 ]; then
+        echo "You can access"
+elif [ $age -lt 17 ]; then
+        echo " can not access "
+fi
+
+
+****************************************************************
+
+read -p "Enter The Username:" username
+read -p "Enter The Password:" password
+
+if [ $username == "ra" ] && [ $password == "1234" ]; then
+        echo "Welcome ra"
+elif [ $username == "gh" ] && [ $password == "1234" ]; then
+        echo "Welcome gh"
+else
+        echo "You don't have any access"
+fi
+
+
+****************************************************************
+
+for ft in {1..10};
+do ping $ft 8.8.8.8;
+done
+
+
+****************************************************************
+
+if [ $uname =="Linux" ] || [ $uname =="ubuntu" ];then
+        echo "Yes"
+fi
+
+
+****************************************************************
+
+if [ "$(id -u)" = "1000" ]; then
+             do stuff for user 1000
+             else
+                          do stuff for other user
+fi
+
+
+****************************************************************
